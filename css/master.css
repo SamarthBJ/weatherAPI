@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tahoma,Verdana, Geneva,sans-serif;
+}
+
+body {
+    background-color: #d6c8c8 !important;
+    background-image: url(/images/cloud_image..png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+header {
+     background-color: hsl(240, 23%, 94%); 
+    padding: 20px;
+    position: fixed; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    margin: 0% !important;
+    color: rgb(15, 15, 15) !important;
+}
+
+.top {
+    padding: 15%;
+    height: 90vh;
+}
+
+.cityList {
+    width: 60vw !important;
+    margin: auto;
+}
+
+
+.bottom {
+    height: 10vh;
+}
+
+.copyright-text {
+    text-align: center;
+    color:white !important;
+    font-size: 18px;
+    padding:auto;
+    margin: auto;
+
+}
+
+.card-container {
+    display: flex !important;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 2% 1%;
+    background-color: #92d1ea !important;
+}
+
+.dateText {
+    font-size: 20px;
+    margin: 5px auto;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
+
+.err {
+    text-align: center !important;
+    background-color: white;
+    padding: 2%;
+    width: 100%;
+    color: rgb(250, 115, 115);
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.form-select {
+    background-color: #0bb2f5 !important;
+}
+
+.footer {
+    background-color: hsl(223, 96%, 20%);
+    padding: 50px;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.input-group-cityList{
+    border-radius:2px ;
+}
